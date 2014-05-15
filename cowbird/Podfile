@@ -1,0 +1,7 @@
+# Podfile
+
+# Select the appropriate platform below
+platform :ios, '7.0'
+
+pod 'AFNetworking', '~> 2.2'
+pod 'AFOAuth2Client', :git => 'https://github.com/leeprobert/AFOAuth2Client'

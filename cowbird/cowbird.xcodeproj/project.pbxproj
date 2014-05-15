@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB93E0E1923B4B2004F7DEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB93E0D1923B4B2004F7DEB /* Foundation.framework */; };
+		1CB93E101923B4B2004F7DEB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB93E0F1923B4B2004F7DEB /* CoreGraphics.framework */; };
+		1CB93E121923B4B2004F7DEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB93E111923B4B2004F7DEB /* UIKit.framework */; };
+		1CB93E141923B4B2004F7DEB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB93E131923B4B2004F7DEB /* CoreData.framework */; };
+		1CB93E1A1923B4B2004F7DEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CB93E181923B4B2004F7DEB /* InfoPlist.strings */; };
+		1CB93E1C1923B4B2004F7DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93E1B1923B4B2004F7DEB /* main.m */; };
+		1CB93E201923B4B2004F7DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93E1F1923B4B2004F7DEB /* AppDelegate.m */; };
+		1CB93E231923B4B2004F7DEB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB93E211923B4B2004F7DEB /* Main_iPhone.storyboard */; };
+		1CB93E261923B4B2004F7DEB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB93E241923B4B2004F7DEB /* Main_iPad.storyboard */; };
+		1CB93E291923B4B2004F7DEB /* cowbird.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93E271923B4B2004F7DEB /* cowbird.xcdatamodeld */; };
+		1CB93E2C1923B4B2004F7DEB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93E2B1923B4B2004F7DEB /* MasterViewController.m */; };
+		1CB93E2F1923B4B2004F7DEB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93E2E1923B4B2004F7DEB /* DetailViewController.m */; };
+		1CB93E311923B4B2004F7DEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB93E301923B4B2004F7DEB /* Images.xcassets */; };
+		1CB93E381923B4B2004F7DEB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB93E371923B4B2004F7DEB /* XCTest.framework */; };
+		1CB93E391923B4B2004F7DEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB93E0D1923B4B2004F7DEB /* Foundation.framework */; };
+		1CB93E3A1923B4B2004F7DEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB93E111923B4B2004F7DEB /* UIKit.framework */; };
+		1CB93E3B1923B4B2004F7DEB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB93E131923B4B2004F7DEB /* CoreData.framework */; };
+		1CB93E431923B4B2004F7DEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CB93E411923B4B2004F7DEB /* InfoPlist.strings */; };
+		1CB93E451923B4B2004F7DEB /* cowbirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93E441923B4B2004F7DEB /* cowbirdTests.m */; };
+		1CB93E511923B8E0004F7DEB /* CBHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93E501923B8E0004F7DEB /* CBHTTPSessionManager.m */; };
+		1CB93E521923B8E0004F7DEB /* CBHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB93E501923B8E0004F7DEB /* CBHTTPSessionManager.m */; };
+		C81507DC920A48E1932225B9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C6D408A6BD4B3ABD72B805 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CB93E3C1923B4B2004F7DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CB93E021923B4B2004F7DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB93E091923B4B2004F7DEB;
+			remoteInfo = cowbird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CB93E0A1923B4B2004F7DEB /* cowbird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cowbird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB93E0D1923B4B2004F7DEB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CB93E0F1923B4B2004F7DEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CB93E111923B4B2004F7DEB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CB93E131923B4B2004F7DEB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1CB93E171923B4B2004F7DEB /* cowbird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cowbird-Info.plist"; sourceTree = "<group>"; };
+		1CB93E191923B4B2004F7DEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CB93E1B1923B4B2004F7DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CB93E1D1923B4B2004F7DEB /* cowbird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cowbird-Prefix.pch"; sourceTree = "<group>"; };
+		1CB93E1E1923B4B2004F7DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CB93E1F1923B4B2004F7DEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CB93E221923B4B2004F7DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1CB93E251923B4B2004F7DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1CB93E281923B4B2004F7DEB /* cowbird.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cowbird.xcdatamodel; sourceTree = "<group>"; };
+		1CB93E2A1923B4B2004F7DEB /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1CB93E2B1923B4B2004F7DEB /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1CB93E2D1923B4B2004F7DEB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1CB93E2E1923B4B2004F7DEB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1CB93E301923B4B2004F7DEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CB93E361923B4B2004F7DEB /* cowbirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cowbirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB93E371923B4B2004F7DEB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1CB93E401923B4B2004F7DEB /* cowbirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cowbirdTests-Info.plist"; sourceTree = "<group>"; };
+		1CB93E421923B4B2004F7DEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CB93E441923B4B2004F7DEB /* cowbirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cowbirdTests.m; sourceTree = "<group>"; };
+		1CB93E4F1923B8E0004F7DEB /* CBHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBHTTPSessionManager.h; sourceTree = "<group>"; };
+		1CB93E501923B8E0004F7DEB /* CBHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBHTTPSessionManager.m; sourceTree = "<group>"; };
+		29C6D408A6BD4B3ABD72B805 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		895A7CC782CC49229E87C04A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CB93E071923B4B2004F7DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB93E101923B4B2004F7DEB /* CoreGraphics.framework in Frameworks */,
+				1CB93E141923B4B2004F7DEB /* CoreData.framework in Frameworks */,
+				1CB93E121923B4B2004F7DEB /* UIKit.framework in Frameworks */,
+				1CB93E0E1923B4B2004F7DEB /* Foundation.framework in Frameworks */,
+				C81507DC920A48E1932225B9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB93E331923B4B2004F7DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB93E381923B4B2004F7DEB /* XCTest.framework in Frameworks */,
+				1CB93E3B1923B4B2004F7DEB /* CoreData.framework in Frameworks */,
+				1CB93E3A1923B4B2004F7DEB /* UIKit.framework in Frameworks */,
+				1CB93E391923B4B2004F7DEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CB93E011923B4B2004F7DEB = {
+			isa = PBXGroup;
+			children = (
+				1CB93E151923B4B2004F7DEB /* cowbird */,
+				1CB93E3E1923B4B2004F7DEB /* cowbirdTests */,
+				1CB93E0C1923B4B2004F7DEB /* Frameworks */,
+				1CB93E0B1923B4B2004F7DEB /* Products */,
+				895A7CC782CC49229E87C04A /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		1CB93E0B1923B4B2004F7DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CB93E0A1923B4B2004F7DEB /* cowbird.app */,
+				1CB93E361923B4B2004F7DEB /* cowbirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CB93E0C1923B4B2004F7DEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CB93E0D1923B4B2004F7DEB /* Foundation.framework */,
+				1CB93E0F1923B4B2004F7DEB /* CoreGraphics.framework */,
+				1CB93E111923B4B2004F7DEB /* UIKit.framework */,
+				1CB93E131923B4B2004F7DEB /* CoreData.framework */,
+				1CB93E371923B4B2004F7DEB /* XCTest.framework */,
+				29C6D408A6BD4B3ABD72B805 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CB93E151923B4B2004F7DEB /* cowbird */ = {
+			isa = PBXGroup;
+			children = (
+				1CB93E4E1923B8E0004F7DEB /* networking */,
+				1CB93E1E1923B4B2004F7DEB /* AppDelegate.h */,
+				1CB93E1F1923B4B2004F7DEB /* AppDelegate.m */,
+				1CB93E211923B4B2004F7DEB /* Main_iPhone.storyboard */,
+				1CB93E241923B4B2004F7DEB /* Main_iPad.storyboard */,
+				1CB93E2A1923B4B2004F7DEB /* MasterViewController.h */,
+				1CB93E2B1923B4B2004F7DEB /* MasterViewController.m */,
+				1CB93E2D1923B4B2004F7DEB /* DetailViewController.h */,
+				1CB93E2E1923B4B2004F7DEB /* DetailViewController.m */,
+				1CB93E301923B4B2004F7DEB /* Images.xcassets */,
+				1CB93E271923B4B2004F7DEB /* cowbird.xcdatamodeld */,
+				1CB93E161923B4B2004F7DEB /* Supporting Files */,
+			);
+			path = cowbird;
+			sourceTree = "<group>";
+		};
+		1CB93E161923B4B2004F7DEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CB93E171923B4B2004F7DEB /* cowbird-Info.plist */,
+				1CB93E181923B4B2004F7DEB /* InfoPlist.strings */,
+				1CB93E1B1923B4B2004F7DEB /* main.m */,
+				1CB93E1D1923B4B2004F7DEB /* cowbird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CB93E3E1923B4B2004F7DEB /* cowbirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CB93E441923B4B2004F7DEB /* cowbirdTests.m */,
+				1CB93E3F1923B4B2004F7DEB /* Supporting Files */,
+			);
+			path = cowbirdTests;
+			sourceTree = "<group>";
+		};
+		1CB93E3F1923B4B2004F7DEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CB93E401923B4B2004F7DEB /* cowbirdTests-Info.plist */,
+				1CB93E411923B4B2004F7DEB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CB93E4E1923B8E0004F7DEB /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				1CB93E4F1923B8E0004F7DEB /* CBHTTPSessionManager.h */,
+				1CB93E501923B8E0004F7DEB /* CBHTTPSessionManager.m */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CB93E091923B4B2004F7DEB /* cowbird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB93E481923B4B2004F7DEB /* Build configuration list for PBXNativeTarget "cowbird" */;
+			buildPhases = (
+				B19195DBFB24455D829F1C08 /* Check Pods Manifest.lock */,
+				1CB93E061923B4B2004F7DEB /* Sources */,
+				1CB93E071923B4B2004F7DEB /* Frameworks */,
+				1CB93E081923B4B2004F7DEB /* Resources */,
+				70C4A67CD27541BA9DFB993B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cowbird;
+			productName = cowbird;
+			productReference = 1CB93E0A1923B4B2004F7DEB /* cowbird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CB93E351923B4B2004F7DEB /* cowbirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB93E4B1923B4B2004F7DEB /* Build configuration list for PBXNativeTarget "cowbirdTests" */;
+			buildPhases = (
+				1CB93E321923B4B2004F7DEB /* Sources */,
+				1CB93E331923B4B2004F7DEB /* Frameworks */,
+				1CB93E341923B4B2004F7DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CB93E3D1923B4B2004F7DEB /* PBXTargetDependency */,
+			);
+			name = cowbirdTests;
+			productName = cowbirdTests;
+			productReference = 1CB93E361923B4B2004F7DEB /* cowbirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CB93E021923B4B2004F7DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cowbird;
+				TargetAttributes = {
+					1CB93E351923B4B2004F7DEB = {
+						TestTargetID = 1CB93E091923B4B2004F7DEB;
+					};
+				};
+			};
+			buildConfigurationList = 1CB93E051923B4B2004F7DEB /* Build configuration list for PBXProject "cowbird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CB93E011923B4B2004F7DEB;
+			productRefGroup = 1CB93E0B1923B4B2004F7DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CB93E091923B4B2004F7DEB /* cowbird */,
+				1CB93E351923B4B2004F7DEB /* cowbirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CB93E081923B4B2004F7DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB93E261923B4B2004F7DEB /* Main_iPad.storyboard in Resources */,
+				1CB93E311923B4B2004F7DEB /* Images.xcassets in Resources */,
+				1CB93E231923B4B2004F7DEB /* Main_iPhone.storyboard in Resources */,
+				1CB93E1A1923B4B2004F7DEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB93E341923B4B2004F7DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB93E431923B4B2004F7DEB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70C4A67CD27541BA9DFB993B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19195DBFB24455D829F1C08 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CB93E061923B4B2004F7DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB93E2F1923B4B2004F7DEB /* DetailViewController.m in Sources */,
+				1CB93E2C1923B4B2004F7DEB /* MasterViewController.m in Sources */,
+				1CB93E291923B4B2004F7DEB /* cowbird.xcdatamodeld in Sources */,
+				1CB93E201923B4B2004F7DEB /* AppDelegate.m in Sources */,
+				1CB93E1C1923B4B2004F7DEB /* main.m in Sources */,
+				1CB93E511923B8E0004F7DEB /* CBHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB93E321923B4B2004F7DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB93E451923B4B2004F7DEB /* cowbirdTests.m in Sources */,
+				1CB93E521923B8E0004F7DEB /* CBHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CB93E3D1923B4B2004F7DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CB93E091923B4B2004F7DEB /* cowbird */;
+			targetProxy = 1CB93E3C1923B4B2004F7DEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CB93E181923B4B2004F7DEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB93E191923B4B2004F7DEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CB93E211923B4B2004F7DEB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB93E221923B4B2004F7DEB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1CB93E241923B4B2004F7DEB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB93E251923B4B2004F7DEB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1CB93E411923B4B2004F7DEB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB93E421923B4B2004F7DEB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CB93E461923B4B2004F7DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CB93E471923B4B2004F7DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CB93E491923B4B2004F7DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895A7CC782CC49229E87C04A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cowbird/cowbird-Prefix.pch";
+				INFOPLIST_FILE = "cowbird/cowbird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CB93E4A1923B4B2004F7DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895A7CC782CC49229E87C04A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cowbird/cowbird-Prefix.pch";
+				INFOPLIST_FILE = "cowbird/cowbird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1CB93E4C1923B4B2004F7DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cowbird.app/cowbird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cowbird/cowbird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cowbirdTests/cowbirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1CB93E4D1923B4B2004F7DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cowbird.app/cowbird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cowbird/cowbird-Prefix.pch";
+				INFOPLIST_FILE = "cowbirdTests/cowbirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CB93E051923B4B2004F7DEB /* Build configuration list for PBXProject "cowbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB93E461923B4B2004F7DEB /* Debug */,
+				1CB93E471923B4B2004F7DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB93E481923B4B2004F7DEB /* Build configuration list for PBXNativeTarget "cowbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB93E491923B4B2004F7DEB /* Debug */,
+				1CB93E4A1923B4B2004F7DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB93E4B1923B4B2004F7DEB /* Build configuration list for PBXNativeTarget "cowbirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB93E4C1923B4B2004F7DEB /* Debug */,
+				1CB93E4D1923B4B2004F7DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CB93E271923B4B2004F7DEB /* cowbird.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CB93E281923B4B2004F7DEB /* cowbird.xcdatamodel */,
+			);
+			currentVersion = 1CB93E281923B4B2004F7DEB /* cowbird.xcdatamodel */;
+			path = cowbird.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1CB93E021923B4B2004F7DEB /* Project object */;
+}
